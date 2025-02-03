@@ -50,14 +50,26 @@ ol {
   color: #404bbf;
 }
 
-.page-nav-address .link {
+.page-nav-address {
+  font-style: normal;
+}
+
+.page-nav-address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  font-style: normal;
+}
+
+.page-nav-address-link:hover,
+.page-nav-link:focus {
+  color: #404bbf;
+}
+
+.page-nav-address-link:active {
+  color: #404bbf;
 }
 
 /* lead section */
@@ -118,8 +130,11 @@ ol {
 .page-team {
   background-color: #f4f4fd;
 }
-.page-team-head {
+
+.page-team-list {
   background-color: #ffffff;
+}
+.page-team-head {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
@@ -130,8 +145,7 @@ ol {
 }
 
 .page-team-title {
-  background-color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
