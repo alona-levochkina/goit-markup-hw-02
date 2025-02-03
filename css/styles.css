@@ -60,7 +60,6 @@ ol {
   font-style: normal;
 }
 
-
 /* lead section */
 .main-page {
   background-color: #2e2f42;
@@ -76,7 +75,7 @@ ol {
 }
 
 .main-page-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -120,13 +119,14 @@ ol {
   background-color: #f4f4fd;
 }
 .page-team-head {
+  background-color: #ffffff;
   font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .page-team-title {
