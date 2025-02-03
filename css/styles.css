@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: white;
 }
@@ -60,14 +60,6 @@ ol {
   font-style: normal;
 }
 
-.page-nav-address .link:hover,
-.apage-nav-ddress .link:focus {
-  color: #404bbf;
-}
-
-.page-nav-address .link:active {
-  color: #404bbf;
-}
 
 /* lead section */
 .main-page {
@@ -84,7 +76,7 @@ ol {
 }
 
 .main-page-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-family: 'Roboto', sans-serif;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -96,6 +88,10 @@ ol {
 
 .main-page-button:hover,
 .main-page-button:focus {
+  background-color: #404bbf;
+}
+
+.main-page-button:active {
   background-color: #404bbf;
 }
 
@@ -123,9 +119,19 @@ ol {
 .page-team {
   background-color: #f4f4fd;
 }
+.page-team-head {
+  font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 
 .page-team-title {
-  font-weight: 500;
+  background-color: #ffffff;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
